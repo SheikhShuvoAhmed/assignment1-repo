@@ -1,11 +1,12 @@
 body{
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
     }
     .container{
         width: 80%;
         margin: 0 auto;   
     }
-    .top_section{
+    .flexible{
         display: flex;
     }
     span{
@@ -24,6 +25,7 @@ body{
     .top_image{
         width: 50%;
         padding: 0px;
+        text-align: right;
     }
     #btn{
         text-decoration: none;
@@ -46,9 +48,7 @@ body{
         text-align: center;
     }
     
-    .mission_content {
-        display: flex;
-    }
+    
     
     .single_mission_box {
         margin-left: 50px;
@@ -64,7 +64,7 @@ body{
         background-color: rgb(194, 153, 233);
         border-radius:10px;
     }
-    .mission_section {
+    .margin_btm {
         margin-bottom: 100px;
     }
     footer {
@@ -82,4 +82,42 @@ body{
     .white_clr{
         color: white;
     }
+    .dev_img img {
+        width: 78%;
+    }
+    
+    .dev_content {
+        width: 80%;
+    }
+    .develop_section{
+        margin-bottom: 100px;
+    }
+    .dev_img {
+        width: 62%;
+        padding-right: 32px;
+        margin-top: 19px;
+    }
+    .community_text {
+        width: 55%;
+        margin-right: 40px;
+        margin-top: 46px;
+    }
+    community_text h2{
+       
+    }
+    
+    .community_img {
+        width: 50%;
+        margin-left: 20px;
+        text-align: right;
+    }
+    
+    .community_img img {
+        width: 80%;
+    }
+    h2{
+        font-size: 40px;
+        display: contents;
+    }
+   
     
